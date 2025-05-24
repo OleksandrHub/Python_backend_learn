@@ -2,7 +2,7 @@
 #pip install fastapi - встановить fastapi
 #pip install uvicorn - встановить uvicorn
 #uvicorn main:app --reload - запустить сервер
-from fastapi import FastAPI, HTTPException # FastAPI - це фреймворк для створення API
+from fastapi import FastAPI, HTTPException # type: ignore # FastAPI - це фреймворк для створення API
 from typing import Optional # Optional - це тип, який дозволяє вказати, що параметр може бути відсутнім 
 
 app = FastAPI() # створюємо екземпляр FastAPI

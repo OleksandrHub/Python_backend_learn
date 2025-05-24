@@ -1,4 +1,4 @@
-import pyowm 
+import pyowm  # type: ignore
 from datetime import datetime
 
 owm = pyowm.OWM('ea95d7be6facb880f812da37738353fc')  # Ви повинні надати дійсний API-ключ
